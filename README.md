@@ -1,2 +1,2 @@
 # proyectoCircuitosElectronicos
-Proyecto que utiliza VHDL para utilizar un ADC-DAC y cifrar una señal analógica.
+Proyecto que utiliza VHDL junto a una placa entrenadora ENT2004CF y una placa Basys-2. También se utilizan conversores Analógico-Digital (ADC) y Digital-Analógica (DAC) para tratar la señal de entrada. La idea es que el usuario introduza la clave para recibir la señal. Si no coincide con la contraseña configurada, la señal que recibe es degradada de tal forma que es imposible recuperar información. Por lo contrario, si coincide, recibe la señal de entrada y puede escucharla perfectamente.
