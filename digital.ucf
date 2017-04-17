@@ -1,0 +1,49 @@
+# Reloj principal del sistema
+
+NET "CLK" LOC = "M6"; # Señal de reloj del sistema
+
+# Conexiones de los PULSADORES
+NET "Up0" LOC = "G12"; # Pulsador 0
+NET "Down0" LOC = "C11"; # Pulsador 1
+NET "Up1" LOC = "M4"; # Pulsador 2
+NET "Down1" LOC = "A7"; # Pulsador 3
+# Conexiones de los INTERRUPTORES
+NET "sw7" LOC = "N3"; # Interruptor 7 (SW7)
+NET "sw<0>" LOC = "P11"; # Interruptor 0 (SW0)
+NET "sw<1>" LOC = "L3"; # Interruptor 1(SW1)
+NET "sw<2>" LOC = "K3"; # Interruptor 2(SW2)
+NET "sw<3>" LOC = "B4"; # Interruptor 3(SW3)
+NET "sw<4>" LOC = "G3"; # Interruptor 4(SW4)
+NET "sw<5>" LOC = "F3"; # Interruptor 5(SW5)
+
+# LEDS
+NET "LEDS<0>" LOC = "M5"; # LED 0
+NET "LEDS<1>" LOC = "M11"; # LED 1
+NET "LEDS<2>" LOC = "P7"; # LED 2
+NET "LEDS<3>" LOC = "P6"; # LED 3
+NET "LEDS<4>" LOC = "N5"; # LED 4
+NET "LEDS<5>" LOC = "N4"; # LED 5
+NET "LEDS<6>" LOC = "P4"; # LED 6
+NET "LEDS<7>" LOC = "G1"; # LED 7
+
+# Conexiones de los DISPLAYS
+NET "Seg7<0>" LOC = "L14"; # señal = CA
+NET "Seg7<1>" LOC = "H12"; # Señal = CB
+NET "Seg7<2>" LOC = "N14"; # Señal = CC
+NET "Seg7<3>" LOC = "N11"; # Señal = CD
+NET "Seg7<4>" LOC = "P12"; # Señal = CE
+NET "Seg7<5>" LOC = "L13"; # Señal = CF
+NET "Seg7<6>" LOC = "M12"; # Señal = CG
+# Señales de activación de los displays
+NET "Disp0" LOC = "F12"; # Activación del display 0 = AN0, activa a nivel bajo
+NET "Disp1" LOC = "J12"; # Activación del display 1 = AN1, activa a nivel bajo
+NET "Disp2" LOC = "M13"; # Activación del display 2 = AN2, activa a nivel bajo
+NET "Disp3" LOC = "K14"; # Activación del display 3 = AN3, activa a nivel bajo
+# Salidas digitales externas
+NET "SCLK" LOC = "C12"; # Salida Digital0
+NET "DIN" LOC = "A13"; # Salida Digital1
+NET "CS0" LOC = "C13"; # Salida Digital2
+NET "CS1" LOC = "D12"; # Salida Digital3
+# Entada DOUT
+NET "DOUT" LOC = "C6"; # Entrada DOUT
+ 
